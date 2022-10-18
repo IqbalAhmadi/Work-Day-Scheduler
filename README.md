@@ -14,6 +14,3 @@ This application schedules the nine to five workday hours. If the hour has passe
 [Font Awesome](https://fontawesome.com/)
 
 [Luxon](https://moment.github.io/luxon/)
-
-[Table of Contents](#Table-of-Contents)
-
