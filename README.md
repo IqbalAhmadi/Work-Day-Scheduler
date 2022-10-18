@@ -1,17 +1,16 @@
 # WorkDayScheduler
 
+[Click Here for Deployed Link](https://iqbalahmadi.github.io/Work-Day-Scheduler/)
+
 ## Description
 
-This application schedules the nine to five workday hours. If the hour has passed the time slot is represented in dark blue.  Current hour is represented in yellow.  Future hours are represented in light blue. When a user clicks the time slot they are able to enter or alter text.  Pushing the green disk button allows the user to save the text.
+This application schedules workday hours from 9AM to 5PM with a save button on each text area. The application is also represented with real time and date so one can access it easily. 
 
-[Click Here for Deployed Link](https://iqbalahmadi.github.io/Work-Day-Scheduler/)
+
 
 <p align="center">
   <img src="./Assets/lmages/task-planning.png" width="100" >
 </p>
-
-## Description 
-This repo provides a timed quiz on JavaScript fundamentals that stores high scores. 
 
 
 ## Built With
@@ -19,19 +18,24 @@ This repo provides a timed quiz on JavaScript fundamentals that stores high scor
 - HTML
 - CSS
 - JavaScript
+- Bootstrap 
+- Luxon
 
 ## Usage
 
-- When you click the start button
-- Then a timer starts and you are presented with a question
-- When you answer a question
-- Then you are presented with another question
-- When you answer a question incorrectly
-- Then time is subtracted from the clock
-- When all questions are answered or the timer reaches 0
-- Then the game is over
-- When the game is over
-- Then you can save your initials and your score
+- When you open the planner
+- Then current day is displayed at the top of the calendar
+- When you scroll down
+- Then you are presented with timeblocks for standard business hours
+- When you view the timeblocks for that day
+- Then each timeblock is color coded to indicate whether it is in the past, present, or future
+- When you click into a timeblock
+- Then you can enter an event
+- When you click the save button for that timeblock
+- Then the text for that event is saved in local storage
+- When you refresh the page
+- Then the saved events persist
+
 
 
 ## Screenshot of the Page
