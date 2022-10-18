@@ -1,0 +1,109 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  outline: none;
+  
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+.description{
+  white-space: pre-wrap;
+}
+
+div.time-block{
+  text-align: center;
+  background-color: #ACE894;
+  border-radius: 15px 0px 0px 15px;
+  border-bottom: 2px solid #49A824;
+  border-top:2px solid #49A824;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+span.hour {
+  background-color:#ACE894;
+  color: #000000;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+div.past {
+  background-color: #344966;
+  border-top: 2px solid #1D6C87;
+  border-bottom: 2px solid #1D6C87; 
+}
+
+div.past > textarea{
+  color: #e9d985;
+}
+
+div.future > textarea, div.present > textarea {
+  color: #344966;
+} 
+
+div.present {
+  background-color: #E9D985;
+  border-top: 2px solid #BEA423;
+  border-bottom:2px solid #BEA423;
+}
+
+.future {
+  background-color: #0EB1D2;
+  border-top: 2px solid #1D6C87;
+  border-bottom: 2px solid #1D6C87
+  
+}
+
+div.saveBtn {
+  border-top: 2px solid #0E657A;
+  border-bottom: 2px solid #0E657A;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #0D1821;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+span.fa-save{
+  color: #ACE894;
+  position: relative;
+  left: 15px;
+  bottom:5px;
+  
+}
+
+div.container{
+  margin-bottom: 40px;
+}
+
+#currentDay {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.border{
+  border: 2px solid white;
+}

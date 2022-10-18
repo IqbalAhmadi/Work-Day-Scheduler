@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script src="luxon.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./Assets/CSS/style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">9AM</span>
+        </div>
+        <div class="col-6 col-sm-10 nine past">
+          <textarea id="nineAM" placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">10AM</span>
+        </div>
+        <div class="col-6 col-sm-10 past ten">
+          <textarea  id="tenAM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">11AM</span>
+        </div>
+        <div class="col-6 col-sm-10 past eleven">
+          <textarea id="elevenAM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">12PM</span>
+        </div>
+        <div class="col-6 col-sm-10 present twelve">
+          <textarea  id="twelvePM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">1PM</span>
+        </div>
+        <div class="col-6 col-sm-10 future one">
+          <textarea   id="onePM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">2PM</span>
+        </div>
+        <div class="col-6 col-sm-10 future two">
+          <textarea   id="twoPM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">3PM</span>
+        </div>
+        <div class="col-6 col-sm-10 future three">
+          <textarea  id="threePM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">4PM</span>
+        </div>
+        <div class="col-6 col-sm-10 future four">
+          <textarea  id="fourPM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2 col-sm-1 time-block" >
+          <span class="hour">5PM</span>
+        </div>
+        <div class="col-6 col-sm-10 future five">
+          <textarea  id="fivePM"  placeholder="Enter text" name="scheduling" rows="3" cols="100"></textarea>
+        </div>
+        <div class="col-2 col-sm-1 saveBtn">
+          <span class="fas fa-save fa-2x"></span>
+        </div>
+      </div>
+    </div>
+    <script src="./Assets/JS/script.js"></script>
+  </body>
+</html>
